@@ -80,6 +80,12 @@
       "desc": "Savjetovanje i zastupanje poslodavaca i radnika.",
       "heroTitle": "Pravna sigurnost za poslodavce i radnike",
       "heroDesc": "Pružamo stručnu pomoć u uređenju radnih odnosa, zaštiti prava zaposlenika i zastupanju pred nadležnim tijelima."
+    },
+    "migration": {
+      "title": "Migracijsko i strano pravo",
+      "desc": "Reguliranje boravka i rada stranih državljana u Republici Hrvatskoj, uključujući ishođenje potrebnih dozvola i dokumentacije.",
+      "heroTitle": "Sigurno i zakonito kroz postupke boravka i rada stranaca",
+      "heroDesc": "Pružamo pravnu podršku pri reguliranju boravka i zapošljavanja stranih državljana u Republici Hrvatskoj, uključujući pripremu dokumentacije i vođenje postupaka pred nadležnim tijelima."
     }
   },
   "contact": {

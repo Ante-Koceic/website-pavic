@@ -41,7 +41,7 @@ export function About() {
             </div>
           </div>
 
-          <div className="order-1 flex flex-col gap-7 origin-top scale-[1.05] lg:order-2">
+          <div className="order-1 flex flex-col gap-7 origin-top lg:order-2">
             <p className="max-w-lg text-base leading-relaxed text-ink-600">
               {t("aboutMe.lead")}
             </p>
