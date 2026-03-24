@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   description:
     "Pouzdana pravna podrška za građane i poslovne subjekte. Pružamo stručne pravne savjete i zastupanje u imovinskopravnim i ugovornim odnosima.",
   icons: {
-    icon: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
