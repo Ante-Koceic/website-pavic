@@ -57,6 +57,10 @@ function getLocalSlugEntries(locale: string): ServiceSlugEntry[] {
 
   return groups.flatMap((group) => {
     const keyword = typeof group.keyword === "string" ? group.keyword.trim() : "";
+    if (!keyword) {
+      return [];
+    }
+
     const cities = Array.isArray(group.cities) ? group.cities : [];
     const titleTemplate =
       typeof group.seoTitleTemplate === "string"
@@ -67,12 +71,7 @@ function getLocalSlugEntries(locale: string): ServiceSlugEntry[] {
         ? group.seoDescriptionTemplate.trim()
         : "";
 
-    if (!keyword) {
-      return [];
-    }
-
     return cities
-      .filter((city) => typeof city === "string" && city.trim())
       .map((city) => {
         const cityValue = city.trim();
         return {

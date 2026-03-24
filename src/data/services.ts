@@ -37,6 +37,12 @@ export const services = [
     titleKey: "services.labor.title",
     descKey: "services.labor.desc",
   },
+  {
+    id: "migration",
+    icon: Wrench,
+    titleKey: "services.migration.title",
+    descKey: "services.migration.desc",
+  },
 ] as const;
 
 export type ServiceId = (typeof services)[number]["id"];
